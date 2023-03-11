@@ -1,21 +1,13 @@
+body {
+  background-color: #22252b;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #22252b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +16,62 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bothColumns {
+  background-color: #22252b;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:focus {
+  outline: none;
+}
+
+.catButton {
+  background-color: #4c87af; 
+  border: none; 
+  color: white; 
+  padding: 10px 24px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+  outline: none !important;
+}
+
+
+.dogButton {
+  background-color: #4CAF50; 
+  border: none; 
+  color: white; 
+  padding: 10px 24px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 5px;
+  outline: none !important;
+}
+
+.Picture {
+  background-color: #22252b;
+  object-fit: cover;
+  width: 450px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+  outline: none !important;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  border: none !important;
+  outline: none !important;
 }
